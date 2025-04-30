@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif ;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+    background: rgb(0, 0, 139); 
+    text-align: center;
+    max-width: 700px;
+    min-height: 300px;
+    margin:  0 auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    color: #ffc000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  border: 2px solid #ffc000;
+  width: 100%;
+  max-width: 300px;
+}
+
+button {
+    padding:  10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    color: #111;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #ffc000;
+    color: #111;
+}
+
+#output {
+    margin-top: 10px ;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffc000;
+    min-height: 30px;
+    /* makes the output paragraph invisible */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+/* Become visible when this class is added */
+#output.show {
+    opacity: 1;
+}
