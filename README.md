@@ -19,7 +19,10 @@ This project was built to practice JavaScript fundamentals such as date handling
 - Working with JavaScript Date objects  
 - Handling user input and validation  
 - DOM manipulation  
-- Structuring simple web applications  
+- Structuring simple web applications
+
+  ## Live Demo
+🔗https://age-calculator-gpa8.vercel.app/
 
 ## 📌 Future Improvements
 - Display age in years, months, and days  
